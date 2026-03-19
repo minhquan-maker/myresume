@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quan Minh Nguyen — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #f7f5f0;
+    padding: 3rem 1rem;
+  }
+
+  .page {
+    max-width: 780px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 3rem 3.5rem;
+    border: 1px solid #ddd9d0;
+  }
+
+  .name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.6rem;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #111;
+    margin-bottom: 0.35rem;
+  }
+
+  .contact {
+    text-align: center;
+    font-size: 13.5px;
+    color: #555;
+    letter-spacing: 0.01em;
+    margin-bottom: 0.15rem;
+  }
+
+  .contact a { color: #555; text-decoration: none; }
+  .contact a:hover { color: #111; }
+
+  .section { margin-top: 1.4rem; }
+
+  .section-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 3px;
+    margin-bottom: 0.85rem;
+  }
+
+  .entry { margin-bottom: 0.9rem; }
+  .entry:last-child { margin-bottom: 0; }
+
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .entry-org {
+    font-weight: 600;
+    font-size: 15px;
+    color: #111;
+  }
+
+  .entry-location {
+    font-size: 13.5px;
+    color: #555;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .entry-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .entry-role {
+    font-style: italic;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .entry-date {
+    font-style: italic;
+    font-size: 13.5px;
+    color: #555;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .entry-note {
+    font-size: 13.5px;
+    color: #444;
+    margin-bottom: 0.15rem;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 1.1rem;
+  }
+
+  ul li {
+    font-size: 14px;
+    color: #222;
+    line-height: 1.55;
+    position: relative;
+    margin-bottom: 0.12rem;
+  }
+
+  ul li::before {
+    content: "•";
+    position: absolute;
+    left: -1.1rem;
+    color: #888;
+  }
+
+  ul li em { font-style: italic; color: #222; }
+
+  .bold { font-weight: 600; }
+
+  .honors-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .honors-table tr td {
+    font-size: 14px;
+    color: #222;
+    padding: 0.15rem 0;
+    vertical-align: top;
+  }
+
+  .honors-table tr td:last-child {
+    text-align: right;
+    white-space: nowrap;
+    padding-left: 1rem;
+    color: #555;
+    font-size: 13.5px;
+  }
+
+  .skills-row {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 0.15rem;
+    line-height: 1.5;
+  }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { border: none; padding: 1.5cm 2cm; max-width: 100%; }
+  }
+
+  @media (max-width: 600px) {
+    .page { padding: 2rem 1.5rem; }
+    .name { font-size: 2rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1 class="name">Quan Minh Nguyen</h1>
+  <p class="contact">57 Ut Tich St &nbsp;•&nbsp; Ho Chi Minh, VN 70000 &nbsp;•&nbsp; <a href="mailto:minhquan.nguyen-2@student.uts.edu.au">minhquan.nguyen-2@student.uts.edu.au</a> &nbsp;•&nbsp; (+84) 908 538 467</p>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-org">University of Technology Sydney</span>
+        <span class="entry-location">Sydney, AUS</span>
+      </div>
+      <div class="entry-sub">
+        <span class="entry-role">B.S. Artificial Intelligence</span>
+        <span class="entry-date">Sep. 2025 – 2028</span>
+      </div>
+      <ul>
+        <li><span class="bold">Cum. GPA:</span> 6.5/7.0. Received High Distinction for 4 Math and Computer Science courses.</li>
+        <li><span class="bold">Coursework:</span> Machine Learning, Deep Learning &amp; CNNs, Data Analytics, Business Modelling.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-org">Lawrence S. Ting School</span>
+        <span class="entry-location">Ho Chi Minh, VN</span>
+      </div>
+      <div class="entry-sub">
+        <span class="entry-role">High School Diploma — Top 5% Graduate</span>
+        <span class="entry-date">2018 – Jun. 2025</span>
+      </div>
+      <p class="entry-note">SAT: 1500 (M740, V760) &nbsp;•&nbsp; IELTS: 8.0 &nbsp;•&nbsp; Student Council President &nbsp;•&nbsp; Varsity Soccer</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-org">URA Research Group</span>
+        <span class="entry-location">Ho Chi Minh, VN</span>
+      </div>
+      <div class="entry-sub">
+        <span class="entry-role">AI Research Lab Member</span>
+        <span class="entry-date">Mar. 2026 – Present</span>
+      </div>
+      <ul>
+        <li>Processed 3D skeleton datasets (NTU RGB+D) and fine-tuned Transformer-based models (MotionBERT, Skateformer) for action recognition; applied SHAP for model explainability and evaluated performance across standard benchmarks.</li>
+        <li>Built a real-time web demo for research using FastAPI, WebSocket, and React.js; investigated explainable AI methods (SHAP) to interpret and visualize model predictions.</li>
+        <li>Co-authoring a paper on <em>Transformer-based Spatio-Temporal Modeling for Early Action Recognition in Elderly Safety.</em></li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-org">FINECS Vietnam</span>
+        <span class="entry-location">Binh Duong, VN</span>
+      </div>
+      <div class="entry-sub">
+        <span class="entry-role">Technical Data Extern</span>
+        <span class="entry-date">Jun. – Jul. 2024</span>
+      </div>
+      <ul>
+        <li>Labeled and categorized data from 10+ machinery units across 3 production lines; compiled structured technical reports tracking 15+ operational metrics for 5 production engineers.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-org">AquaGuard — Flood Rescue Mobile App</span>
+        <span class="entry-location">Ho Chi Minh, VN</span>
+      </div>
+      <div class="entry-sub">
+        <span class="entry-role">Project Lead &amp; Scrum Master</span>
+        <span class="entry-date">Sep. 2025 – Present</span>
+      </div>
+      <ul>
+        <li>Developed the iOS app and web application for rescue coordination; integrated an aerial drone network to support real-time flood rescue operations in Central Vietnam and Australia.</li>
+        <li>Led outreach strategy, scaling to 1,000+ followers and 18,000+ views across 3 educational campaign videos.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-org">Carbon Footprint App Tracker</span>
+        <span class="entry-location">New Taipei, Taiwan</span>
+      </div>
+      <div class="entry-sub">
+        <span class="entry-role">UI/UX Designer &amp; Contributor</span>
+        <span class="entry-date">Feb. – Jun. 2024</span>
+      </div>
+      <ul>
+        <li>Designed the UI/UX for a carbon emissions tracking app; collaborated with Fu Jen Catholic University (Taiwan) on algorithm integration and gifted the final product to the Taiwanese government for ongoing environmental education.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-org">Bach Khoa Green Innovation Club</span>
+        <span class="entry-location">Ho Chi Minh, VN</span>
+      </div>
+      <div class="entry-sub">
+        <span class="entry-role">Director, Board of Directors</span>
+        <span class="entry-date">Dec. 2025 – Present</span>
+      </div>
+      <ul>
+        <li>Guided 50+ students in research ideation and technical project development; organized participation in domestic and international science and innovation competitions, growing club membership by 30%.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Honors &amp; Awards</div>
+    <table class="honors-table">
+      <tr>
+        <td>Gold Medal — OISP Presentation Contest 2025, Ho Chi Minh City University of Technology</td>
+        <td>2026</td>
+      </tr>
+      <tr>
+        <td>Best Presenter Award — REACH Vietnam 2025: ASEAN Youth Leadership</td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td>Gold Medal — ASEAN Innovative Science, Environmental &amp; Entrepreneur Fair (AISEEF)</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>Gold Medal — Siam International Math &amp; Science Olympics (SIMSO), Bangkok, Thailand</td>
+        <td>2024</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Skills &amp; Interests</div>
+    <div class="skills-row"><span class="bold">Technical:</span> Python, Java, HTML/CSS, React.js, FastAPI</div>
+    <div class="skills-row"><span class="bold">Tools:</span> Git, Figma, WebSocket, MOS Specialist</div>
+    <div class="skills-row"><span class="bold">Languages:</span> Vietnamese (native), English (advanced), French (elementary)</div>
+    <div class="skills-row"><span class="bold">Interests:</span> Water Puppetry, R&amp;B Music, Archery, Soccer</div>
+  </div>
+
+</div>
+</body>
+</html>
